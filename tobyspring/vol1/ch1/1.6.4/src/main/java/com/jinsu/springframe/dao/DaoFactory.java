@@ -13,7 +13,7 @@ public class DaoFactory {
 
 	@Bean
 	public ConnectionMaker connectionMaker() {
-		ConnectionMaker connectionMaker = new DConnectionMaker();
+		ConnectionMaker connectionMaker = new MConnectionMaker();
 		return connectionMaker;
 	}
 }
