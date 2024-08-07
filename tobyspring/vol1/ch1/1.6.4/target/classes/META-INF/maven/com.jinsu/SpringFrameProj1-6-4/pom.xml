@@ -40,11 +40,7 @@
             <version>2.2.224</version>
             <!--<scope>test</scope>-->
         </dependency>
-        <dependency>
-        	<groupId>com.jinsu</groupId>
-        	<artifactId>SpringFrameProj1-5-1</artifactId>
-        	<version>0.0.1-SNAPSHOT</version>
-        </dependency>
+
     </dependencies>
 
 
