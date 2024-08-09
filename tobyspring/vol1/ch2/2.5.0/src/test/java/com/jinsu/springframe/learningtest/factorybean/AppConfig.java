@@ -14,7 +14,10 @@ public class AppConfig {
 	
 	@Bean
 	public MyCustomObject myCustomObject() throws Exception {
-		return myCustomObjectFactory().getObject();
-	}
+		return myCustomObjectFactory().getObject(); 
+		}
 
 }
+
+
+
