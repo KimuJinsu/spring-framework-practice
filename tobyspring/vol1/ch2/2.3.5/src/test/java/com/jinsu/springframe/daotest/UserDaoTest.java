@@ -27,6 +27,7 @@ import com.jinsu.springframe.domain.User;
 //@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 //@TestMethodOrder(MethodOrderer.DisplayName.class)
 public class UserDaoTest {
+	
 	private UserDao dao; 
 	
 	private User user1;

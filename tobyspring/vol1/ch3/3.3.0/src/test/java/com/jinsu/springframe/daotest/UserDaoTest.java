@@ -40,8 +40,8 @@ public class UserDaoTest {
 		this.dao = context.getBean("userDao", UserDao.class);
 		
 		
-		this.user1 = new User("gyumee", "¹jinsu", "springno1");
-		this.user2 = new User("leegw700", "kim", "springno2");
+		this.user1 = new User("gyumee", "¹박성철", "springno1");
+		this.user2 = new User("leegw700", "이길원", "springno2");
 		this.user3 = new User("bumjin", "su", "springno3");
 		
 		System.setProperty("configFile", "test-config.properties");
