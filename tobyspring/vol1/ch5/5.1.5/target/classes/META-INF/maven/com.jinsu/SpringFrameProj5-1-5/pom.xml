@@ -3,7 +3,6 @@
   <groupId>com.jinsu</groupId>
   <artifactId>SpringFrameProj5-1-5</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
  <properties>
 	  <maven.compiler.source>17</maven.compiler.source>
       <maven.compiler.target>17</maven.compiler.target>
@@ -37,7 +36,7 @@
 	      <groupId>org.springframework</groupId>
 	      <artifactId>spring-dao</artifactId>
 	      <version>2.0.8</version>
-	  </dependency>
+	        </dependency>
 	  
 	  <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
 	  <dependency>
@@ -70,8 +69,7 @@
     		  <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-compiler-plugin</artifactId>
               <version>3.8.1</version>
-              
-              <configuration>				  
+                    <configuration>				  
 				    <source>${maven.compiler.source}</source>
                   <target>${maven.compiler.target}</target>
                   <release>17</release>
