@@ -57,13 +57,16 @@ public class UserServiceTest {
 	@Autowired 
 	UserServiceImpl userServiceImpl;
 	
-	@Autowired UserDao userDao;	
+	@Autowired 
+	UserDao userDao;	
 	
-	@Autowired ApplicationContext context;
+	@Autowired 
+	ApplicationContext context;
 
-	
-	@Autowired MailSender mailSender; 
-	@Autowired PlatformTransactionManager transactionManager;
+	@Autowired 
+	MailSender mailSender; 
+	@Autowired 
+	PlatformTransactionManager transactionManager;
 	
 	static List<User> users;	// test fixture
 	
