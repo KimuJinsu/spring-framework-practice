@@ -1,6 +1,3 @@
--  **Blog** : [Jinsu's Technical Blog](https://myinfo503.tistory.com)
-<br/><br/>
-
 #### Spring Framework에서 데이터베이스와의 상호작용을 효율적으로 처리하기 위해 다양한 기술과 모듈이 제공됩니다. Spring은 데이터베이스 작업을 단순화하고 코드의 유지보수를 용이하게 하기 위해 여러 가지 기능을 제공합니다. 아래는 Spring Framework에서 데이터베이스와 관련된 주요 개념과 기술을 설명합니다.
 
 # 1. Spring JDBC
