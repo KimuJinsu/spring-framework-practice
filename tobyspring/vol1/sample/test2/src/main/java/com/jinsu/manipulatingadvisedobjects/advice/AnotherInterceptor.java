@@ -15,7 +15,7 @@ public class AnotherInterceptor implements MethodInterceptor {
 			out.println("AnotherInterceptor:After method " +
 					invocation.getMethod().getName());
 			
-				return null;
+				return retVal;
 	}
 
 }

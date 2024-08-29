@@ -56,8 +56,12 @@ public class AppConfig {
     public ProxyFactoryBean myServiceProxy(MyService myService) {
         ProxyFactoryBean proxyFactoryBean = new ProxyFactoryBean();
         proxyFactoryBean.setTarget(myService);
+        
+        // Advisor 추가 (인터셉터 순서에 유의)
         proxyFactoryBean.addAdvisor(myAdvisor(mySpecialPointcut(), debugInterceptor()));
-        proxyFactoryBean.setProxyTargetClass(true);
-        return proxyFactoryBean;
+        proxyFactoryBean.addAdvisor(anotherAdvisor(mySpecialPointcut(), anotherInterceptor()));
+        
+        proxyFactoryBean.setProxyTargetClass(true); // CGLIB 프록시 사용
+        return proxyFactoryBean; // 프록시 객체 반환
     }
 }
