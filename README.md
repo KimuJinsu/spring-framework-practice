@@ -58,5 +58,5 @@
 ---
 
 ## 참고 자료
-- **[토비의 스프링 3.1 Vol. 1 스프링의 이해와 원리](https://book.naver.com/bookdb/book_detail.nhn?bid=7006519)**: 본 프로젝트의 기반이 되는 서적입니다.
+- **[토비의 스프링 3.1 Vol. 1 스프링의 이해와 원리](https://github.com/AcornPublishing/toby-spring3-1)**: 본 프로젝트의 기반이 되는 링크입니다.
 - **[스프링 공식 문서](https://docs.spring.io/spring-framework/docs/current/reference/html/)**: 스프링 프레임워크에 대한 상세한 문서와 레퍼런스를 제공합니다.
